@@ -6,16 +6,25 @@ import CartItem from './components/CartItem';
 function Home() {
   return (
     <main className="landing-page">
-      <div className="hero-overlay">
+      <div className="background-image">
         <div className="hero-content">
           <p className="eyebrow">WELCOME TO PARADISE NURSERY</p>
-          <h1>Bring a little<br /><span>paradise home.</span></h1>
+
+          <h1>
+            Welcome to <span>Paradise Nursery</span>
+          </h1>
+
           <p className="hero-text">
-            Discover beautiful houseplants selected for modern homes, study spaces, and first-time plant parents.
+            Discover beautiful houseplants selected for modern homes, study
+            spaces, and first-time plant parents.
           </p>
-          <Link className="primary-btn hero-btn" to="/plants">Get Started</Link>
+
+          <Link className="primary-btn hero-btn" to="/plants">
+            Get Started
+          </Link>
         </div>
       </div>
+
       <AboutUs />
     </main>
   );
