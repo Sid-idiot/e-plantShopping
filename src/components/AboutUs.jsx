@@ -1,4 +1,4 @@
-export default function AboutUs() {
+function AboutUs() {
   return (
     <div className="about-us-container">
       <p className="eyebrow">ABOUT PARADISE NURSERY</p>
@@ -14,8 +14,10 @@ export default function AboutUs() {
       <p>
         Our mission is to make bringing nature indoors simple and enjoyable.
         We offer tropical foliage, succulents, cacti, and air-purifying plants
-        selected to bring a little more nature into everyday life.
+        carefully selected to bring a little more nature into everyday life.
       </p>
     </div>
   );
 }
+
+export default AboutUs;
